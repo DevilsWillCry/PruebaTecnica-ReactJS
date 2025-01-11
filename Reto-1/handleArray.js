@@ -1,6 +1,4 @@
-// processArray
 export function processArray(arr) {
-    // Check if the input is an array
     if (!Array.isArray(arr)) {
         throw new Error("Input must be an array");
     }
