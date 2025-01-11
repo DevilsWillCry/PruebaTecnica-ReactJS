@@ -1,7 +1,6 @@
-// src/redux/formSlice.js
 import { createSlice } from  '@reduxjs/toolkit';
 
-// Inicializar el estado inicial  del slice  formularios  vacío  array vacío  []  que almacenará los formularios.
+// Inicializar el estado inciial.
 const initialState = {
   formularios: [],
 };
