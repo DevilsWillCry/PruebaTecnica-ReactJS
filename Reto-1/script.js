@@ -18,7 +18,7 @@ getData()
   })
   .catch((e) => console.error(e));
 
-// 3. Clasess in Javascript:
+// 3. Clases en Javascript:
 const person = new Person("John Doe", 30);
 console.log(person.greet());
 document.getElementById("dataClasePerson").innerHTML = person.greet();
