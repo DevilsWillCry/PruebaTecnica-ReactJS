@@ -1,4 +1,4 @@
-1. Optimizar el Estado en Redux mediante el uso de paginación o carga diferida.
+1. Optimizar el Estado en Redux mediante el uso de paginación o carga diferida. /n
 Mantener todos los formularios en el estado global de Redux puede volverse ineficiente a medida que el volumen crece, ya que la aplicación tendrá que renderizar todos los formularios en memoria. Esto podría ralentizar la interfaz y consumir recursos innecesarios.
 
     Solución:
