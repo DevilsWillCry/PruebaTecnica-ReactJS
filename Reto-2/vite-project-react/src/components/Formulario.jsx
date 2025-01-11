@@ -28,9 +28,8 @@ const Formulario = () => {
         values
       );
       dispatch(agregarFormulario(values));
-      console.log("Respuesta de la API:", response.data);
       alert(
-        "Formulario enviado correctamente. Revisa la consola para la respuesta."
+        "Formulario enviado correctamente."
       );
     } catch (error) {
       console.error("Error al enviar el formulario:", error);
